@@ -1,0 +1,86 @@
+    <div id="menubar">
+    <style scoped="scoped">
+    #menubar {
+        background-color: #1a1a1a;
+        background: -webkit-linear-gradient(top, #2a2a2a 0%, #000 100%);
+        background: -moz-linear-gradient(top, #2a2a2a 0%, #000 100%);
+        background: linear-gradient(top, #2a2a2a 0%, #000 100%);
+        box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+        height: 46px;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+    }
+    #menubar-lastupdate {
+        display: inline;
+        float: left;
+        color: #aaa;
+        font: 1.2em 'Helvetica Neue', Helvetica, sans-serif;
+        margin-left: 0.5em;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+    }
+    #menubar-text {
+        display: inline;
+        float: middle;
+        color: #aaa;
+        font: 1.6em 'Helvetica Neue', Helvetica, sans-serif;
+        margin-left: 0.5em;
+        text-decoration: none;
+    }
+
+    #menubar-brand {
+        display: inline-block;
+        padding-left: 50px;
+        padding-top: 4px;
+    }
+    #menubar-links {
+        display: inline;
+        float: right;
+        height: 60px;
+        margin-top: 0.8em;
+        padding-right: 60px;
+    }
+    #menubar-links a {
+        color: #bbb;
+        font: 0.9em 'Helvetica Neue', Helvetica, sans-serif;
+        margin-left: 0.5em;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+    }
+    #menubar-links a:hover {
+        color: #fff;
+    }
+    #menubar-links input {
+        background-color: #3a3a3a;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        color: #eee;
+        display: inline;
+        margin-left: 1em;
+        padding: 4px;
+        transition: all 0.15s;
+    }
+    #menubar-links input:focus {
+        background-color: #fff;
+        color: #111;
+        outline: 0;
+    }
+    #menubar-links form {
+        display: inline;
+        }
+    </style>
+    <div id="menubar-lastupdate">
+    Last update: 25 May 2019
+    </div>
+    <div id="menubar-text">
+    Ben Meyer
+    </div>
+    <div id="menubar-links">
+    %= link_to 'My Projects' => 'https://mojolicious.org/perldoc'
+    %= link_to LinkedIn => 'https://www.linkedin.com/in/benjamin-meyer-3b7913159'
+    %= link_to GitHub => 'https://github.com/meyerben'
+    %= link_to Twitter => 'https://twitter.com/Bean_Meyer'
+    </div>
+    </div>
