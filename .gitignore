@@ -1,4 +1,1 @@
-.*
-*~
-!.gitignore
-!my_website.conf
+my_website.conf
