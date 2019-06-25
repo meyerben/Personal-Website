@@ -85,7 +85,7 @@
     Ben Meyer
     </p>
     <p id="menubar-links">
-    %= link_to 'My Projects' => 'https://mojolicious.org/perldoc'
+    %= link_to 'My Projects' => '/'
     %= link_to LinkedIn => 'https://www.linkedin.com/in/benjamin-meyer-3b7913159'
     %= link_to GitHub => 'https://github.com/meyerben'
     %= link_to Twitter => 'https://twitter.com/Bean_Meyer'
