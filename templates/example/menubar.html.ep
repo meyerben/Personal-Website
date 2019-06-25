@@ -13,34 +13,41 @@
         z-index: 1000;
     }
     #menubar-lastupdate {
-        display: inline;
         float: left;
+        text-align: left;
+        width: 33%;
         color: #aaa;
-        font: 1.2em 'Helvetica Neue', Helvetica, sans-serif;
+        margin-top: 0.8em;
+    }
+    #menubar-lastupdate a {
+        color: #bbb;
+        font: 0.9em 'Helvetica Neue', Helvetica, sans-serif;
         margin-left: 0.5em;
         text-decoration: none;
         transition: all 200ms ease-in-out;
     }
-    #menubar-text {
-        display: inline;
-        float: middle;
-        color: #aaa;
-        font: 1.6em 'Helvetica Neue', Helvetica, sans-serif;
-        margin-left: 0.5em;
-        text-decoration: none;
+    #menubar-lastupdate a:hover {
+        color: #fff;
     }
 
-    #menubar-brand {
-        display: inline-block;
-        padding-left: 50px;
-        padding-top: 4px;
+    #menubar-title {
+        float: left;
+        text-align: center;
+        color: #aaa;
+        width: 33%;
+        text-align: center;
+        font: 1.6em 'Helvetica Neue', Helvetica, sans-serif;
+        font-variant: small-caps;
+        text-decoration: none;
+        margin-top: .5em;
     }
+
     #menubar-links {
-        display: inline;
-        float: right;
+        float: left;
+        width: 33%;
+        text-align: right;
         height: 60px;
         margin-top: 0.8em;
-        padding-right: 60px;
     }
     #menubar-links a {
         color: #bbb;
@@ -71,16 +78,16 @@
         display: inline;
         }
     </style>
-    <div id="menubar-lastupdate">
-    Last update: 25 May 2019
-    </div>
-    <div id="menubar-text">
+    <p id="menubar-lastupdate">
+    %= link_to 'Last update: 25 May 2019' => 'https://github.com/meyerben/Personal-Website'
+    </p>
+    <p id="menubar-title">
     Ben Meyer
-    </div>
-    <div id="menubar-links">
+    </p>
+    <p id="menubar-links">
     %= link_to 'My Projects' => 'https://mojolicious.org/perldoc'
     %= link_to LinkedIn => 'https://www.linkedin.com/in/benjamin-meyer-3b7913159'
     %= link_to GitHub => 'https://github.com/meyerben'
     %= link_to Twitter => 'https://twitter.com/Bean_Meyer'
-    </div>
+    </p>
     </div>
