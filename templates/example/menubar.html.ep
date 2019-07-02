@@ -8,7 +8,7 @@
         box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
         height: 46px;
         overflow: hidden;
-        position: absolute;
+        position: fixed;
         width: 100%;
         z-index: 1000;
     }
@@ -28,6 +28,7 @@
     }
     #menubar-lastupdate a:hover {
         color: #fff;
+        text-shadow: 0 0 1px #fff;
     }
 
     #menubar-title {
@@ -39,7 +40,18 @@
         font: 1.6em 'Helvetica Neue', Helvetica, sans-serif;
         font-variant: small-caps;
         text-decoration: none;
-        margin-top: .5em;
+        margin-top: .45em;
+    }
+
+    #menubar-title a {
+        color: #bbb;
+        margin-left: 0.5em;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+    }
+    #menubar-title a:hover {
+        color: #fff;
+        text-shadow: 0 0 3px #fff;
     }
 
     #menubar-links {
@@ -58,6 +70,7 @@
     }
     #menubar-links a:hover {
         color: #fff;
+        text-shadow: 0 0 1px #fff;
     }
     #menubar-links input {
         background-color: #3a3a3a;
@@ -79,13 +92,13 @@
         }
     </style>
     <p id="menubar-lastupdate">
-    %= link_to 'Last update: 25 May 2019' => 'https://github.com/meyerben/Personal-Website'
+    %= link_to 'Last update: 2 July 2019' => 'https://github.com/meyerben/Personal-Website'
     </p>
     <p id="menubar-title">
-    Ben Meyer
+    %= link_to 'Ben Meyer' => '/'
     </p>
     <p id="menubar-links">
-    %= link_to 'My Projects' => '/'
+    %= link_to 'My Projects' => '/projects'
     %= link_to LinkedIn => 'https://www.linkedin.com/in/benjamin-meyer-3b7913159'
     %= link_to GitHub => 'https://github.com/meyerben'
     %= link_to Twitter => 'https://twitter.com/Bean_Meyer'
