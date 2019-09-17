@@ -1,0 +1,27 @@
+% layout 'default';
+% title 'Projects';
+%= include 'example/menubar'
+<div id="wrapperlicious">
+ <div class="box spaced">
+    <h1 style="text-align: center">Pictures of Me!</h1>
+        <div class="photo-row">
+            <div class="photo-column">
+                <img src="madrid.JPG">
+                <img src="madrid2.JPG">
+                <img src="mizzou1.jpg">
+                <img src="scuba1.jpg">
+                <img src="ironman2.JPG">
+                <img src="commissioning.jpg">
+                <img src="scuba4.JPG">
+            </div>
+            <div class="photo-column">
+                <img src="scuba2.jpg">
+                <img src="social1.JPG">
+                <img src="ironman1.JPG">
+                <img src="scuba3.JPG">
+                <img src="cheetos.JPG">
+                
+            </div>
+        </div>
+    </div>
+</div>

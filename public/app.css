@@ -1,13 +1,3 @@
-#balloon {
-    position: absolute;
-    right: 9%;
-    top: 245px;
-  }
-#fun {
-  background: url(../digitalforest.png) repeat-x;
-  height: 450px;
-  text-align: center;
-}
 #introduction {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -15,23 +5,8 @@
   padding-bottom: 0;
   padding-top: 70px;
 }
-#promotion {
-  border-left: 2px dotted #c1c1c1;
-  float: right;
-  margin: 3em;
-  margin-right: 0;
-  padding: 1em;
-  padding-right: 0;
-}
-#sponsored-by {
-  color: #2f2f2f;
-  font: 0.7em Verdana, sans-serif;
-  padding-bottom: 15px;
-  text-align: center;
-}
-#sponsored-by a { text-decoration: none }
 #wrapperlicious {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .box {
@@ -43,6 +18,29 @@
 .spaced {
   margin-left: 5em;
   margin-right: 5em;
+}
+
+/* Clear floats after the columns */
+.photo-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  
+}
+/* Create two equal columns that sits next to each other */
+.photo-column {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  
+}
+
+.photo-column img {
+  margin-top: 8px;
 }
 
 .undecorated { text-decoration: none }
