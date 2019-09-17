@@ -92,7 +92,7 @@
         }
     </style>
     <p id="menubar-lastupdate">
-    %= link_to 'Last update: 16 September 2019' => 'https://github.com/meyerben/Personal-Website'
+    %= link_to 'Last update: 17 September 2019' => 'https://github.com/meyerben/Personal-Website'
     </p>
     <p id="menubar-title">
     %= link_to 'Ben Meyer' => '/'
