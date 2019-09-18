@@ -5,12 +5,25 @@
   padding-bottom: 0;
   padding-top: 70px;
 }
+.fun {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  text-align: center;
+  align-content: center;
+}
+.fun img{
+  flex-shrink: 0;
+  max-width: 300px;
+  min-height: 100%;
+}
 #wrapperlicious {
   max-width: 1300px;
   margin: 0 auto;
 }
 .box {
-  background-color: #fff;
+  background-image: url('pinstripe-light.png');
   border: 1px solid #c1c1c1;
   overflow: hidden;
   padding: 4em;
@@ -28,14 +41,13 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 95%;
   
 }
 /* Create two equal columns that sits next to each other */
 .photo-column {
   float: left;
-  width: 48%;
-  padding: 10px;
+  width: 50%;
   
 }
 

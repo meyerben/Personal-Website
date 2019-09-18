@@ -1,5 +1,15 @@
 % layout 'default';
 % title 'Welcome';
+
+
+
+<div class="fun">
+%= image '/depth/depth1.png'
+%= image '/depth/depth5.png'
+%= image '/depth/depth4.png'
+%= image '/depth/depth2.png'
+%= image '/depth/depth3.png'
+</div>
 %= include 'example/menubar'
 <div id="wrapperlicious">
 <!-- 
@@ -23,6 +33,35 @@
     <h1>
       Experience
     </h1>
+    <ul>
+      <li> <%= link_to 'Keystone Technologies' => 'https://keystonetechnologies.com/' %>: <i>Summer 2016</i></li> 
+      <ul>
+        <li><b>Position: </b>Intern</li>
+        <li><b>What I did:</b></li>
+        <ul>
+          <li>Worked on Internal Web App "Ask Me Anything" which allowed employees to ask questions to management</li>
+          <li>Refactored site to MVC architecture</li>
+          <li>Implemented OAuth login system</li>
+          <li>Was introduced to Perl and <%= link_to Mojolicious => 'https://mojolicious.org/' %></li>
+        </ul>
+        <li><b>Skills Learned: </b></li>
+        <ul>
+          <li>Relational Databases (PostgreSQL)</li>
+          <li>Backend Web Development(Perl)</li>
+          <li>REST APIs</li>
+          <li>OAuth (Google,Facebook)</li>
+          <li>Perl and Mojolicious</li>
+        </ul>
+      </ul>
+      <li><%= link_to 'CERT Lab' => 'https://www.eldertech.missouri.edu/'%>: <i>Summer 2018 -> Spring 2019</i></li>
+      <ul>
+        <li><b>Position: </b>Undergrad Research Assistant</li>
+      </ul>
+      <li><%= link_to 'Foresite Healthcare' => 'https://www.foresitehealthcare.com/'%>: <i>Spring 2019 -> Present</i></li>
+      <ul>
+        <li><b>Position: </b>Software Engineer</li>
+      </ul>
+    </ul>
     <p>
     </p>
     <h1>
