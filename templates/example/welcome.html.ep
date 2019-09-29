@@ -8,7 +8,7 @@
 %= image '/depth/depth3.png'
 %= image '/depth/depth5.png'
 %= image '/depth/depth2.png'
-%= image '/depth/depth4.png'
+<!-- %= image '/depth/depth4.png'-->
 
 
 </div>
