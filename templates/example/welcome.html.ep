@@ -3,13 +3,16 @@
 
 
 
-<div class="fun">
+<div class="fun" onclick="location.href='https://showyourstripes.info/';" style="cursor:pointer;">
+<!----for depth background ---------
 %= image '/depth/depth1.png'
 %= image '/depth/depth3.png'
 %= image '/depth/depth5.png'
 %= image '/depth/depth2.png'
 %= image '/depth/depth4.png'
-
+-->
+<!----for climate background ---->
+  %= image 'climate-stripes.png'
 
 </div>
 %= include 'example/menubar'

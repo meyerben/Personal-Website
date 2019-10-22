@@ -13,10 +13,15 @@
   text-align: center;
   align-content: center;
 }
-.fun img{
+.fun a {
+  max-width: 100%;
+}
+.fun a img{
   flex-shrink: 0;
-  max-width: 300px;
-  min-height: 100%;
+  /* max-width: 300px; */
+  
+  max-width: 100%;
+  max-height: 300px;
 }
 #wrapperlicious {
   max-width: 1300px;
